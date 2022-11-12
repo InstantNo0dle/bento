@@ -16,8 +16,8 @@ const CONFIG = {
   title: "new tab",
 
   // Clock
-  twelveHourFormat: false,
-  flashSeparator: false,
+  twelveHourFormat: true,
+  flashSeparator: true,
   
   // Theme
   theme: "catppuccin-mocha",
@@ -40,7 +40,7 @@ const CONFIG = {
   // Search Bar
   searchBar: true,
   searchEngine: "google", // google, ddg
-  barStyle: "minimal", // bento, minimal, boxy, rounded
+  barStyle: "rounded", // bento, minimal, boxy, rounded
   barPlaceholder: "", // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
 
