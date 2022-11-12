@@ -102,7 +102,7 @@ const CONFIG = {
       id: "4",
       name: "Calendar",
       icon: "calendar",
-      link: "https://calendar.google.com/calendar/r"
+      link: "https://calendar.google.com/calendar/u/2/r?pli=1"
     },
     {
       id: "5",
@@ -190,19 +190,19 @@ const CONFIG = {
       id: "2",
       links: [
         {
-          name: "Classroom",
+          name: "classroom",
           link: "https://classroom.google.com/u/1/h"
         },
         {
-          name: "Dribbble",
-          link: "https://www.dribbble.com"
+          name: "msm portal",
+          link: "https://my.msmnyc.edu/ICS"
         },
         {
-          name: "Trello",
+          name: "trello",
           link: "https://www.trello.com"
         },
         {
-          name: "Slack",
+          name: "slack",
           link: "https://www.slack.com"
         }
       ]
