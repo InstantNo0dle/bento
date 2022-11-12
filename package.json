@@ -1,10 +1,10 @@
 {
-  "name": "bento-next",
+  "name": "bento",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build-pages": "vite build --base=/InstantNo0dle/bento-next/",
+    "build-pages": "vite build --base=/InstantNo0dle/bento/",
     "preview": "vite preview --port 5050",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
