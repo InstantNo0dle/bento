@@ -20,7 +20,7 @@ const CONFIG = {
   flashSeparator: false,
   
   // Theme
-  theme: "bento",
+  theme: "catppuccin-mocha",
   imageBackground: false,
   imageUrl: "background.jpg", // place in ./src/assets/images/ and provide the file name. Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
   themes: [   // List of installed themes, add your own themes in ./src/assets/css/themes and include it in the array below.
@@ -64,7 +64,7 @@ const CONFIG = {
   defaultLongitude: "-122.419",
 
   // Autochange theme from OS preferece - The below options are all mutually exclusive. If you've got multiple set to true, the first one will be set and the rest ignored.
-  changeThemeByOS: false,
+  changeThemeByOS: true,
 
   // Switch theme based on set hours. (24hr format, string must be in: hh:mm)
   changeThemeByHour: false,
