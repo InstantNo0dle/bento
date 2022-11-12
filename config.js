@@ -13,14 +13,14 @@ const CONFIG = {
   // General
   name: "Erin",
   openInNewTab: true,
-  title: "Bento",
+  title: "new tab",
 
   // Clock
   twelveHourFormat: false,
   flashSeparator: false,
   
   // Theme
-  theme: "bento",
+  theme: "catppuccin-mocha",
   imageBackground: false,
   imageUrl: "background.jpg", // place in ./src/assets/images/ and provide the file name. Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
   themes: [   // List of installed themes, add your own themes in ./src/assets/css/themes and include it in the array below.
@@ -40,7 +40,7 @@ const CONFIG = {
   // Search Bar
   searchBar: true,
   searchEngine: "google", // google, ddg
-  barStyle: "bento", // bento, minimal, boxy, rounded
+  barStyle: "minimal", // bento, minimal, boxy, rounded
   barPlaceholder: "", // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
 
@@ -54,9 +54,9 @@ const CONFIG = {
   bentoLayout: "bento", // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: "YourOpenWeatherMapAPIKey", // Write here your API Key
+  weatherKey: "d1b2d64b5cc868744fa92afa286ee11b", // Write here your API Key
   weatherIcons: "OneDark", // 'Onedark', 'Nord', 'Dark', 'White'
-  weatherUnit: "C", // 'F', 'C'
+  weatherUnit: "F", // 'F', 'C'
   language: "en", // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
@@ -90,13 +90,13 @@ const CONFIG = {
       id: "2",
       name: "Mail",
       icon: "envelope",
-      link: "https://mail.protonmail.com/"
+      link: "https://mail.google.com/mail/u/2/#inbox"
     },
     {
       id: "3",
-      name: "Todoist",
+      name: "TickTick",
       icon: "list-ol",
-      link: "https://todoist.com"
+      link: "https://ticktick.com/webapp/#q/all/tasks"
     },
     {
       id: "4",
@@ -112,9 +112,9 @@ const CONFIG = {
     },
     {
       id: "6",
-      name: "Odysee",
+      name: "YouTube",
       icon: "fab-youtube",
-      link: "https://odysee.com/"
+      link: "https://youtube.com/"
     }
   ],
 
@@ -151,9 +151,9 @@ const CONFIG = {
     },
     {
       id: "6",
-      name: "Figma",
-      icon: "fab-figma",
-      link: "https://figma.com/"
+      name: "Slack",
+      icon: "fab-slack",
+      link: "https://slack.com/"
     }
   ],
 
@@ -164,24 +164,24 @@ const CONFIG = {
   // First Links Container
   firstlistsContainer: [
     {
-      icon: "music",
+      icon: "headphones",
       id: "1",
       links: [
         {
-          name: "Inspirational",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          name: "kai notebook",
+          link: "https://www.youtube.com/playlist?list=PLguGs_1IRon7v4z6aqHXKAEDm0TzWXF0E"
         },
         {
-          name: "Classic",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          name: "abao",
+          link: "https://www.youtube.com/c/%E9%98%BF%E9%B2%8D"
         },
         {
-          name: "Oldies",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          name: "kharma medic",
+          link: "https://www.youtube.com/playlist?list=PLmWo-cY6xKJbFIhZZZ-dm599XwucdH6g"
         },
         {
-          name: "Rock",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          name: "zach highley",
+          link: "https://www.youtube.com/playlist?list=PLAwi1RbowI0xGMvg_bhossbOhlBa7U430"
         }
       ]
     },
@@ -190,8 +190,8 @@ const CONFIG = {
       id: "2",
       links: [
         {
-          name: "Linkedin",
-          link: "https://www.linkedin.com"
+          name: "Classroom",
+          link: "https://classroom.google.com/u/1/h"
         },
         {
           name: "Dribbble",
