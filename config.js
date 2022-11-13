@@ -12,7 +12,7 @@ const CONFIG = {
 
   // General
   name: "Erin",
-  openInNewTab: true,
+  openInNewTab: false,
   title: "new tab",
 
   // Clock
